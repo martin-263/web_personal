@@ -1,0 +1,21 @@
+html {
+    font-family: Verdana, sans-serif;
+    background-color: #242327 ;
+    color: #ffffff;
+}
+
+body {
+    margin: 25px 25px auto 25px;
+    font-size: 16px;
+}
+
+.title, .subtitle {
+    font-weight: normal;
+}
+
+#intro {
+    padding: 5px 10px 0 10px;
+    max-width: 600px;
+    text-align: justify;
+}
+
