@@ -1,0 +1,112 @@
+html {
+    font-family: Verdana, sans-serif;
+    background-color: #242327 ;
+    color: #ffffff;
+}
+
+body {
+    font-size: 15px;
+}
+
+.title, .subtitle {
+    font-weight: normal;
+}
+
+#intro {
+    padding: 5px 10px 0 10px;
+    max-width: 600px;
+    text-align: justify;
+}
+
+#navbar {
+    position: fixed;
+    min-width: 100%;
+    height: 60px;
+    background-color: #171619;
+    top: 0px; 
+    left: 0px;
+    border-bottom: solid;
+    border-color: #111013;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+}
+
+#navbar li{
+    padding: 0px 50px 0px 50px;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    padding:5px 10px;
+    border-radius: 50px;
+    border-color: #111013;
+    border-style: solid;  
+    background-clip: padding-box;
+    background-color: rgba(17, 17, 19, 0.714)
+}
+
+#navbar a:hover {
+    background-color: #ffffff;
+    color: #171619;
+}
+
+#nav-header {
+    font-weight: normal;
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.title {
+    margin: 90px auto auto auto;
+}
+
+.nav-marker {
+    position: relative;
+    top: -65px;
+}
+
+#info-personal {
+    margin: 40px 15px 15px 15px;
+}
+
+#habilidades {
+    margin: 40px 15px 15px 15px;
+}
+
+footer {
+  position: absolute;
+  bottom: 5px;
+}
+
+@media only screen and (max-width:600px) {
+    body {
+        font-size: 14px;
+    }
+    .title, .subtitle{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #navbar li{
+        font-size: 10px;
+        padding: 0 10px 0 10px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+    .title, .subtitle{
+        font-size: 22px;
+
+    }
+    #navbar li{
+        padding: 0 10px 0 10px;
+    }
+}
